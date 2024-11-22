@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: 15px;
+  }
+}
